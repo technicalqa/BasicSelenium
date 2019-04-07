@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class DynamicDropDown {
+public class DropDownDynamic {
 	public static void main(String args[]) throws InterruptedException{
 		
 		//System.setProperty("webdriver.chrome.driver" , "D:/Automation/chromedriver.exe");
