@@ -12,6 +12,7 @@ public class JavaAlertPopUp {
 		
 		driver.findElement(By.xpath("//input[@value='Confirmation Alert']")).click();
 		Thread.sleep(500);
+		//Alert alert = driver.switchTo().alert();//Alert is of alert type.
 		System.out.println(driver.switchTo().alert().getText()); //get text of alert pop up
 		//driver.switchTo().alert().sendKeys("qwewqe"); // insert into popup text field
 		driver.switchTo().alert().accept(); //Accept= positive(OK,done,yes)
