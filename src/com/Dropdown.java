@@ -13,7 +13,7 @@ public class Dropdown {
 		//WebDriver driver = new ChromeDriver();
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.spicejet.com/");//open specific url
-		Select s = new Select(driver.findElement(By.id ("ctl00_mainContent_ddl_Adult")));//select is  class
+		Select s = new Select(driver.findElement(By.id ("ctl00_mainContent_ddl_Adult")));//Select is  class
 		s.selectByValue("3");
 		Thread.sleep(1000);
 		s.selectByIndex(1);
